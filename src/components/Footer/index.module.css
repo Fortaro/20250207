@@ -1,0 +1,94 @@
+.footer {
+    width: 100%;
+    background: #FFF;
+    column-gap: 32px;
+    margin: 64px auto 0 auto;
+    max-width: 80rem;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    padding: 64px 32px 32px 32px;
+    border-top: 1px solid rgba(17,24,39,.1);
+}
+
+.logo {
+    width: 28px;
+    height: 28px;
+}
+
+.logoTitle {
+    flex: 1;
+    line-height: 1.5rem;
+    color: rgb(75 85 99 / 1);
+}
+
+.logoTitle::before {
+    content: '';
+    display: block;
+    width: 28px;
+    height: 28px;
+    margin-bottom: 32px;
+    background: url('./icon.ico') no-repeat center / contain;
+}
+
+.logoList {
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+    margin-top: 32px;
+}
+
+.tiktok::before,
+.instagram::before,
+.twitter::before,
+.youtube::before {
+    content: '';
+    display: block;
+    width: 22px;
+    height: 22px;
+}
+
+.tiktok::before {
+    background: url('./tiktok.svg') no-repeat center / contain;
+}
+
+.instagram::before {
+    background: url('./instagram.svg') no-repeat center / contain;
+}
+
+.twitter::before {
+    background: url('./Twitter.svg') no-repeat center / contain;
+}
+
+.youtube::before {
+    background: url('./Youtube.svg') no-repeat center / contain;
+}
+
+
+.aside {
+    display: flex;
+    flex: 2;
+}
+
+.aside > div {
+    flex: 1;
+}
+
+.title {
+    font-size: .875rem;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    margin: 24px 0 26px 0;
+    color: rgb(75 85 99 / 1);
+    font-size: .875rem;
+}
+
+.list > li:hover {
+    color: #371827;
+}

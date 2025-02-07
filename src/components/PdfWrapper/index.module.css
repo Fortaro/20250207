@@ -1,0 +1,50 @@
+.wrapper {
+    position: relative;
+    padding: 12px;
+    margin: 12px;
+    background-color: #ffffff;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.wrapper:hover {
+    background-color: #f9fafb;
+}
+
+.content {
+    flex: 1;
+    transition: all .3s;
+}
+
+.order {
+    font-size: .75rem;
+    line-height: 1rem;
+    width: 100%;
+    text-align: center;
+}
+
+.rotate {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    transition: all .3s;
+}
+
+.wrapper:hover .rotate {
+    scale: 1.1
+}
+
+.icon::before {
+    content: "";
+    display: block;
+    width: 12px;
+    height: 12px;
+    background: url('./reset.svg') no-repeat center / contain;
+}
+
+.rotateIcon {
+    display: block;
+    width: 12px;
+    height: 12px;
+    fill: #FFFFFF;
+}

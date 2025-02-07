@@ -1,0 +1,82 @@
+.layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.inputView {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    border: 1px dashed #d6d3d1;
+    width: 275px;
+    height: 350px;
+}
+
+.controlBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 12px;
+    width: 100%;
+}
+.zoomIn::before,
+.zoomOut::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+
+.zoomIn::before {
+    background: url('./zoomIn.svg') no-repeat center / contain;
+}
+
+.zoomOut::before {
+    background: url('./zoomOut.svg') no-repeat center / contain;
+}
+
+
+.label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.icon {
+    width: 2rem;
+    height: 2rem;
+}
+
+.fileInput {
+    display: none;
+}
+
+.tips {
+    margin-top: 8px;
+}
+
+.pdfViews {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+}

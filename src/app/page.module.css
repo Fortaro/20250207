@@ -1,0 +1,38 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    font-family: var(--sans), serif;
+}
+
+.main {
+    flex: 1;
+    background: #f7f5ee;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.title {
+    text-align: center;
+    font-weight: 500;
+    font-family: Tiempos, serif;
+    font-size: 3rem;
+    line-height: 1;
+}
+
+.describe {
+    text-align: center;
+    margin: 1.25rem auto 0 auto;
+    max-width: 32rem;
+    color: #4b5563;
+}
+
+.header {
+    margin-bottom: 40px;
+
+}
+
+.content {
+
+}
